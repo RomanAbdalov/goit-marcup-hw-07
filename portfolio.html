@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title lang="en">Web Studio</title>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:ital,wght@0,700;1,400;1,500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
     <!-- <link rel="stylesheet" href="./css/styles.css"> -->
     <link rel="stylesheet" href="./css/main.min.css">
 </head>
@@ -20,9 +20,9 @@
             <li class="item"><a href="#" class="link menu-link">Контакти</a></li>
         </ul>
         <ul class="site-tel list">
-            <li class="item"><a href="mailto:info@devstudio.com" class="link " > <svg class="site-tel-icon">
+            <li class="item"><a href="mailto:info@devstudio.com" class="link " > <svg class="site-tel__icon">
                 <use href="./img/second-moon.svg#icon-maill"></use> </svg> info@devstudio.com</a></li>
-            <li class="item"><a href="tel:+380961111111" class="link" ><svg class="site-tell-icon">
+            <li class="item"><a href="tel:+380961111111" class="link" ><svg class="site-tel__icon">
                 <use href="./img/second-moon.svg#icon-tell"></use>
             </svg>+38 096 111 11 11</a></li>
          </ul>
@@ -122,50 +122,46 @@
          <footer class="footer">
             <div class="general-footer-container">
             <div class="footer-container">
-            <a href="/index.html" lang="en" class="logo-footer">
-                <span class="logo-web">Web</span>Studio
+            <a href="/index.html" lang="en" class="logo__footer">
+                <span class="logo__web">Web</span>Studio
             </a>
             <address>
-                <ul  class="footer-link list">
-                    <li><a href="https://goo.gl/maps/6wjF6ddyan5pq2gH9" class="footer-link link footer-address">м. Київ, пр-т Лесі Українки, 26</a></li>
-                    <li><a href="mailto:info@devstudio.com" class="footer-link link">info@devstudio.com</a></li>
-                    <li><a href="tel:+380961111111" class="footer-link link">+38 096 111 11 11</a></li>
+                <ul  class="footer__link list">
+                    <li><a href="https://goo.gl/maps/6wjF6ddyan5pq2gH9" class="footer__link link footer__address">м. Київ, пр-т Лесі Українки, 26</a></li>
+                    <li><a href="mailto:info@devstudio.com" class="footer__link link">info@devstudio.com</a></li>
+                    <li><a href="tel:+380961111111" class="footer__link link">+38 096 111 11 11</a></li>
                 </ul>
+            </address>
             </div>
-                <div class="footer-container">
-                <p class=footer-text>
+            <div class="footer-container">
+                <p class=footer__text>
                     приєднуйтесь
                 </p>
-                <ul class="footer-soc-list list">
-                    <li class="footer-soc-items"> <a href="#" class="footer-soc-link link"><svg class="footer-icon">
+                <ul class="footer-soc__list list">
+                    <li class="footer-soc__items"> <a href="#" class="footer-soc__link link"><svg class="footer__icon">
                         <use href="./img/symbol-defs.svg#icon-instagramsvg"></use>
                     </svg>
                     </a></li>
-                    <li class="footer-soc-items"><a href="#" class="footer-soc-link link"><svg class="footer-icon">
+                    <li class="footer-soc__items"><a href="#" class="footer-soc__link link"><svg class="footer__icon">
                         <use href="./img/symbol-defs.svg#icon-twittersvg"></use>
                     </svg></a></li>
-                    <li class="footer-soc-items"> <a href="#" class="footer-soc-link link"><svg class="footer-icon">
+                    <li class="footer-soc__items"> <a href="#" class="footer-soc__link link"><svg class="footer__icon">
                         <use href="./img/symbol-defs.svg#icon-facebooksvg"></use>
                     </svg></a></li>
-                    <li class="footer-soc-items"> <a href="#" class="footer-soc-link link"><svg class="footer-icon">
+                    <li class="footer-soc__items"> <a href="#" class="footer-soc__link link"><svg class="footer__icon">
                         <use href="./img/symbol-defs.svg#icon-linkedinsvg"></use>
                     </svg></a></li>
                 </ul>
             </div>
             <div class="footer-container">
-                <p class="footer-text">Підпишіться на розсилку</p>
-                <form class="footer-form">
-                    <input type="email" name="email" id="email" class="footer-input footer-form-item" placeholder="E-mail">
-                    <button type="submit" class="footer-button ">
-                    <span class="fotter-btn-text"> Підписатися</span></button>
-                </form>
-            </div>
-            </div>
-                </address>
-            </footer> 
+            <p class="footer__text">Підпишіться на розсилку</p>
+            <form class="footer-form">
+                <input type="email" name="email" id="email" class="footer__input footer-form__item" placeholder="E-mail">
+                <button type="submit" class="footer__button ">
+                <span class="fotter-btn__text"> Підписатися</span></button>
+            </form>
         </div>
-        
-            </address>
-        </footer> 
+        </div>
+         </footer> 
     </body>
     </html>

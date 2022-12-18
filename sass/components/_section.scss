@@ -2,15 +2,15 @@
     padding-top: 94px;
     padding-bottom: 94px;
 
-    &-top {
+    &__top {
         padding-top: 0;
     }
 
-    &-comand { 
+    &__comand { 
         background-color: $primery-button-color;
     }
 
-    &-title {
+    &__title {
         padding-bottom: 50px;
         font-weight: 700;
         font-size: 36px;

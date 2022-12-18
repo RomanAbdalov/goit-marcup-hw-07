@@ -1,14 +1,14 @@
 .company {
-    &-list {
+    &__list {
         display: flex;
         list-style: none;
         }
        
-    &-items:not(:last-child) {
+    &__items:not(:last-child) {
         margin-right: 30px;
      }
 
-    &-link  {
+    &__link  {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -39,7 +39,7 @@
         transition-duration: 250ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1 );
     }
-    .company-link:hover .company-icon,
-    .company-link:focus .company-icon {
+    .company__link:hover .company-icon,
+    .company__link:focus .company-icon {
         fill: $accent-text-color;
     }

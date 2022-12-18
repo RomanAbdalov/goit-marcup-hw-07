@@ -27,7 +27,7 @@
         }
     }
 
-    &-icon {
+    &__icon {
         fill: currentColor;
         width: 16px;
         height: 12px;
@@ -39,7 +39,7 @@
         margin-left: 40px;
     }
 }
-.site-tell-icon {
+.site-tell__icon {
     fill: currentColor;
     width: 10px;
     height: 16px;
@@ -47,8 +47,3 @@
     background-position: center;
 }
 
-.site-tell .link:hover,
-.site-tell .link:focus {
-    fill:var(--accent-text-color);
-    color:var(--accent-text-color)
-}

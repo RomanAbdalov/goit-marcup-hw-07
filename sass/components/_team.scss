@@ -1,9 +1,9 @@
 .team {
-    &-list {
+    &__list {
         display: flex;    
     }
 
-    &-element {
+    &__element {
         width: 270px;
         background-color: $primary-bg-color;
         margin-right: 30px;
@@ -12,7 +12,7 @@
         border-radius: 0px 0px 4px 4px;
     }
 
-    &-item {
+    &__item {
         margin-top: 30px;
         margin-bottom: 10px;
         margin-left: auto;
@@ -26,7 +26,7 @@
         color: $title-text-color;
     }
 
-    &-text {
+    &__text {
         margin-bottom: 30px;
         margin-left: auto;
         margin-right: auto;
@@ -39,14 +39,14 @@
 }
 
 .team-soc {
-    &-list {
+    &__list {
         display: flex;
         justify-content: center;
         align-items: center;
         margin-bottom: 30px;
     }
 
-    &-items {
+    &__items {
         width: 44px;
         height: 44px;
 
@@ -55,7 +55,7 @@
           }
     }
 
-&-link {
+&__link {
     width: 100%;
     height: 100%;
     display: flex;
@@ -81,7 +81,6 @@
     }
 }
 }
-
 .team-icon {
     width: 20px;
     height: 20px; 
@@ -91,7 +90,7 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1 );
 }
-.team-soc-link:hover .team-icon,
-.team-soc-link:focus .team-icon {
+.team-soc__link:hover .team-icon,
+.team-soc__link:focus .team-icon {
  fill: $primary-bg-color;
 }

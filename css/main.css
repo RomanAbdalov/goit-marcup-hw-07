@@ -350,7 +350,7 @@ summary {
 .logo:hover {
   color: #2196F3;
 }
-.logo-web {
+.logo__web {
   color: #2196F3;
 }
 
@@ -438,7 +438,7 @@ summary {
   fill: #2196F3;
   color: #2196F3;
 }
-.site-tel-icon {
+.site-tel__icon {
   fill: currentColor;
   width: 16px;
   height: 12px;
@@ -449,18 +449,12 @@ summary {
   margin-left: 40px;
 }
 
-.site-tell-icon {
+.site-tell__icon {
   fill: currentColor;
   width: 10px;
   height: 16px;
   margin-right: 10px;
   background-position: center;
-}
-
-.site-tell .link:hover,
-.site-tell .link:focus {
-  fill: var(--accent-text-color);
-  color: var(--accent-text-color);
 }
 
 .overlay {
@@ -526,13 +520,13 @@ summary {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.section-top {
+.section__top {
   padding-top: 0;
 }
-.section-comand {
+.section__comand {
   background-color: #F5F4FA;
 }
-.section-title {
+.section__title {
   padding-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
@@ -541,7 +535,7 @@ summary {
   letter-spacing: 0.03em;
   color: #212121;
 }
-.section-title.centered {
+.section__title.centered {
   text-align: center;
 }
 
@@ -553,8 +547,15 @@ summary {
 .feature-list .title {
   color: #212121;
 }
+.feature-list__text {
+  padding: 10px 0px;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
 
-.list-item::before {
+.list__item::before {
   display: block;
   content: "";
   height: 120px;
@@ -575,14 +576,6 @@ summary {
   color: #212121;
 }
 
-.feature-text {
-  padding: 10px 0px;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: #757575;
-}
-
 .icon-delivery::before {
   background-image: url(../img/antenna.svg);
   background-size: 65.32px 70px;
@@ -600,13 +593,13 @@ summary {
   background-size: 54.83px 60.66px;
 }
 
-.work-items {
+.work__items {
   position: relative;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
 }
-.work-items::before {
+.work__items::before {
   position: absolute;
   top: 73%;
   content: "";
@@ -614,7 +607,7 @@ summary {
   height: 70px;
   background: rgba(47, 48, 58, 0.8);
 }
-.work-text {
+.work__text {
   position: absolute;
   top: 85%;
   left: 50%;
@@ -643,12 +636,12 @@ summary {
   margin-left: 0px;
 }
 
-.team-list {
+.team__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
-.team-element {
+.team__element {
   width: 270px;
   background-color: #ffffff;
   margin-right: 30px;
@@ -657,7 +650,7 @@ summary {
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
-.team-item {
+.team__item {
   margin-top: 30px;
   margin-bottom: 10px;
   margin-left: auto;
@@ -670,7 +663,7 @@ summary {
   letter-spacing: 0.03em;
   color: #212121;
 }
-.team-text {
+.team__text {
   margin-bottom: 30px;
   margin-left: auto;
   margin-right: auto;
@@ -681,7 +674,7 @@ summary {
   color: #757575;
 }
 
-.team-soc-list {
+.team-soc__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -693,14 +686,14 @@ summary {
           align-items: center;
   margin-bottom: 30px;
 }
-.team-soc-items {
+.team-soc__items {
   width: 44px;
   height: 44px;
 }
-.team-soc-items:not(:last-child) {
+.team-soc__items:not(:last-child) {
   margin-right: 10px;
 }
-.team-soc-link {
+.team-soc__link {
   width: 100%;
   height: 100%;
   display: -webkit-box;
@@ -721,7 +714,7 @@ summary {
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.team-soc-link:hover, .team-soc-link:focus {
+.team-soc__link:hover, .team-soc__link:focus {
   background-color: #2196F3;
   width: 100%;
   height: 100%;
@@ -750,21 +743,21 @@ summary {
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.team-soc-link:hover .team-icon,
-.team-soc-link:focus .team-icon {
+.team-soc__link:hover .team-icon,
+.team-soc__link:focus .team-icon {
   fill: #ffffff;
 }
 
-.company-list {
+.company__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   list-style: none;
 }
-.company-items:not(:last-child) {
+.company__items:not(:last-child) {
   margin-right: 30px;
 }
-.company-link {
+.company__link {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -786,7 +779,7 @@ summary {
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.company-link:hover, .company-link:focus {
+.company__link:hover, .company__link:focus {
   border-color: #2196F3;
 }
 
@@ -802,12 +795,12 @@ summary {
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.company-link:hover .company-icon,
-.company-link:focus .company-icon {
+.company__link:hover .company-icon,
+.company__link:focus .company-icon {
   fill: #2196F3;
 }
 
-.logo-footer {
+.logo__footer {
   padding-bottom: 28px;
   display: block;
   color: #ffffff;
@@ -825,7 +818,7 @@ summary {
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.logo-footer:hover, .logo-footer:focus {
+.logo__footer:hover, .logo__footer:focus {
   color: #2196F3;
 }
 
@@ -833,7 +826,7 @@ summary {
   background-color: #2F303A;
   padding: 60px 0px;
 }
-.footer-link {
+.footer__link {
   margin: 12px 0px;
   display: block;
   font-style: normal;
@@ -843,10 +836,10 @@ summary {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
-.footer-link:hover, .footer-link:focus {
+.footer__link:hover, .footer__link:focus {
   color: #2196F3;
 }
-.footer-address {
+.footer__address {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -860,7 +853,7 @@ summary {
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.footer-text {
+.footer__text {
   margin-top: 10px;
   margin-bottom: 30px;
   font-weight: 700;
@@ -870,12 +863,12 @@ summary {
   text-transform: uppercase;
   color: #ffffff;
 }
-.footer-icon {
+.footer__icon {
   width: 20px;
   height: 20px;
   fill: currentColor;
 }
-.footer-input {
+.footer__input {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   background-color: transparent;
@@ -886,7 +879,7 @@ summary {
   border-radius: 4px;
 }
 
-.footer-soc-list {
+.footer-soc__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -898,14 +891,14 @@ summary {
           align-items: center;
   margin-bottom: 30px;
 }
-.footer-soc-items {
+.footer-soc__items {
   width: 44px;
   height: 44px;
 }
-.footer-soc-items:not(:last-child) {
+.footer-soc__items:not(:last-child) {
   margin-right: 10px;
 }
-.footer-soc-link {
+.footer-soc__link {
   width: 100%;
   height: 100%;
   background: rgba(255, 255, 255, 0.1);
@@ -928,8 +921,8 @@ summary {
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-soc-link:hover,
-.footer-soc-link:focus {
+.footer-soc__link:hover,
+.footer-soc__link:focus {
   background-color: #2196F3;
   width: 100%;
   height: 100%;
@@ -944,12 +937,12 @@ summary {
           align-items: center;
   border-radius: 50%;
 }
-.footer-soc-link:hover .team-icon,
-.footer-soc-link:focus .team-icon {
+.footer-soc__link:hover .team-icon,
+.footer-soc__link:focus .team-icon {
   fill: #ffffff;
 }
 
-.footer-input::-webkit-input-placeholder {
+.footer__input::-webkit-input-placeholder {
   width: 47px;
   height: 20px;
   font-weight: 400;
@@ -963,7 +956,7 @@ summary {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.footer-input::-moz-placeholder {
+.footer__input::-moz-placeholder {
   width: 47px;
   height: 20px;
   font-weight: 400;
@@ -975,7 +968,7 @@ summary {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.footer-input:-ms-input-placeholder {
+.footer__input:-ms-input-placeholder {
   width: 47px;
   height: 20px;
   font-weight: 400;
@@ -989,7 +982,7 @@ summary {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.footer-input::-ms-input-placeholder {
+.footer__input::-ms-input-placeholder {
   width: 47px;
   height: 20px;
   font-weight: 400;
@@ -1003,7 +996,7 @@ summary {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.footer-input::placeholder {
+.footer__input::placeholder {
   width: 47px;
   height: 20px;
   font-weight: 400;
@@ -1019,7 +1012,7 @@ summary {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.footer-form-item {
+.footer-form__item {
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
@@ -1028,11 +1021,11 @@ summary {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
-.footer-form-item:focus, .footer-form-item:hover {
+.footer-form__item:focus, .footer-form__item:hover {
   outline: transparent;
 }
 
-.footer-button {
+.footer__button {
   position: relative;
   position: absolute;
   border-radius: 4px;
@@ -1047,7 +1040,7 @@ summary {
   cursor: pointer;
   border: transparent;
 }
-.footer-button::after {
+.footer__button::after {
   content: "";
   position: absolute;
   top: 13px;
@@ -1057,7 +1050,7 @@ summary {
   background-image: url(../img/send.svg);
 }
 
-.fotter-btn-text {
+.fotter-btn__text {
   position: absolute;
   top: 10px;
   right: 62px;
@@ -1225,7 +1218,7 @@ summary {
   border-radius: 4px;
 }
 
-.close-button {
+.close__button {
   position: absolute;
   top: 8px;
   right: 8px;
@@ -1238,10 +1231,10 @@ summary {
   display: flex;
   background-color: #ffffff;
 }
-.close-button:focus, .close-button:hover {
+.close__button:focus, .close__button:hover {
   fill: #2196F3;
 }
-.close-modal {
+.close__modal {
   width: 18px;
   height: 18px;
   position: absolute;
@@ -1253,7 +1246,7 @@ summary {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-heading {
+.modal__heading {
   font-weight: 700px;
   font-size: 20px;
   line-height: 23px;
@@ -1262,7 +1255,7 @@ summary {
   margin-bottom: 30px;
   color: #212121;
 }
-.modal-input {
+.modal__input {
   width: 100%;
   height: 40px;
   border: 1px solid rgba(33, 33, 33, 0.2);
@@ -1272,14 +1265,14 @@ summary {
   -webkit-transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-input:focus, .modal-input:hover {
+.modal__input:focus, .modal__input:hover {
   border-color: #2196F3;
   outline: transparent;
 }
-.modal-input:focus + svg, .modal-input:hover + svg {
+.modal__input:focus + svg, .modal__input:hover + svg {
   fill: #2196F3;
 }
-.modal-text {
+.modal__text {
   width: 100%;
   height: 120px;
   border: 1px solid rgba(33, 33, 33, 0.2);
@@ -1287,7 +1280,7 @@ summary {
   padding: 12px 16px;
   resize: none;
 }
-.modal-text::-webkit-input-placeholder {
+.modal__text::-webkit-input-placeholder {
   font-weight: 400;
   font-size: 12px;
   line-height: 14px;
@@ -1296,7 +1289,7 @@ summary {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   color: rgba(117, 117, 117, 0.5);
 }
-.modal-text::-moz-placeholder {
+.modal__text::-moz-placeholder {
   font-weight: 400;
   font-size: 12px;
   line-height: 14px;
@@ -1305,7 +1298,7 @@ summary {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   color: rgba(117, 117, 117, 0.5);
 }
-.modal-text:-ms-input-placeholder {
+.modal__text:-ms-input-placeholder {
   font-weight: 400;
   font-size: 12px;
   line-height: 14px;
@@ -1314,7 +1307,7 @@ summary {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   color: rgba(117, 117, 117, 0.5);
 }
-.modal-text::-ms-input-placeholder {
+.modal__text::-ms-input-placeholder {
   font-weight: 400;
   font-size: 12px;
   line-height: 14px;
@@ -1323,7 +1316,7 @@ summary {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   color: rgba(117, 117, 117, 0.5);
 }
-.modal-text::placeholder {
+.modal__text::placeholder {
   font-weight: 400;
   font-size: 12px;
   line-height: 14px;
@@ -1332,7 +1325,7 @@ summary {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   color: rgba(117, 117, 117, 0.5);
 }
-.modal-check {
+.modal__check {
   width: 100%;
   height: 24px;
   display: block;
@@ -1344,11 +1337,15 @@ summary {
   -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.modal__link {
+  color: #2196F3;
+  margin-left: 7px;
+}
 
-.modal-input-group {
+.modal-input__group {
   margin-bottom: 28px;
 }
-.modal-input-group .label {
+.modal-input__group .label {
   width: 22px;
   height: 14px;
   display: block;
@@ -1359,36 +1356,32 @@ summary {
   letter-spacing: 0.01em;
   color: #757575;
 }
-.modal-input-group-link {
-  color: #2196F3;
-  margin-left: 7px;
-}
 
-.modal-text:focus::-webkit-input-placeholder, .modal-text:hover::-webkit-input-placeholder {
+.modal__text:focus::-webkit-input-placeholder, .modal__text:hover::-webkit-input-placeholder {
   color: #2196F3;
 }
 
-.modal-text:focus::-moz-placeholder, .modal-text:hover::-moz-placeholder {
+.modal__text:focus::-moz-placeholder, .modal__text:hover::-moz-placeholder {
   color: #2196F3;
 }
 
-.modal-text:focus:-ms-input-placeholder, .modal-text:hover:-ms-input-placeholder {
+.modal__text:focus:-ms-input-placeholder, .modal__text:hover:-ms-input-placeholder {
   color: #2196F3;
 }
 
-.modal-text:focus::-ms-input-placeholder, .modal-text:hover::-ms-input-placeholder {
+.modal__text:focus::-ms-input-placeholder, .modal__text:hover::-ms-input-placeholder {
   color: #2196F3;
 }
 
-.modal-text:focus::placeholder,
-.modal-text:hover::placeholder {
+.modal__text:focus::placeholder,
+.modal__text:hover::placeholder {
   color: #2196F3;
 }
 
-.modal-input-wrapper {
+.modal-input__wrapper {
   position: relative;
 }
-.modal-input-icon {
+.modal-input__icon {
   position: absolute;
   top: 50%;
   left: 12px;
@@ -1398,10 +1391,10 @@ summary {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-check-label {
+.modal-check__label {
   position: relative;
 }
-.modal-check-label::before {
+.modal-check__label::before {
   content: "";
   width: 16px;
   height: 16px;
@@ -1410,7 +1403,7 @@ summary {
   margin-right: 10px;
 }
 
-label.modal-check-label {
+label.modal-check__label {
   position: absolute;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1421,7 +1414,7 @@ label.modal-check-label {
   cursor: pointer;
 }
 
-.modal-politic-check:checked + label::before {
+.modal-politic__check:checked + label::before {
   border: none;
   background-image: url(../img/check.svg);
   width: 16px;
@@ -1442,7 +1435,7 @@ label.modal-check-label {
   opacity: 0;
 }
 
-.modal-button {
+.modal__button {
   width: 200px;
   height: 50px;
   margin-top: 40px;

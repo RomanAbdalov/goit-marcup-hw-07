@@ -5,8 +5,16 @@
      & .title {
         color: $title-text-color ;
     }
+
+    &__text {
+        padding: 10px 0px;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        color: $primery-text-color;
+    }
 }
-.list-item::before {
+.list__item::before {
     display: block;
     content:"";
     height: 120px;
@@ -24,11 +32,4 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: $title-text-color;
-}
-.feature-text {
-    padding: 10px 0px;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-    color: $primery-text-color;
 }
